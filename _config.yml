@@ -18,17 +18,22 @@ email: 651019063@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   only do but say
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+url: "http://example.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: menghuanwd
 github_username:  menghuanwd
+zhihu_username: menghuanwd
+RSS: false
+sidebar: true
 
 # Build settings
 markdown: kramdown
 theme: minima
+# theme: jekyll-theme-minimal
 # theme: jekyll-theme-hacker
 # theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
