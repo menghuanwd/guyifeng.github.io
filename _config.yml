@@ -24,6 +24,7 @@ github_username:  menghuanwd
 zhihu_username: menghuanwd
 RSS: false
 sidebar: true
+paginate: 5
 
 # Build settings
 markdown: kramdown
@@ -33,20 +34,20 @@ theme: minima
 # theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
+  - jekyll-sitemap
+# # Pagination Settings
+# pagination:
+#   enabled: true
+#   per_page: 5
+#   # offset: 2
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
 
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 5
-  # offset: 2
-  permalink: '/page/:num/'
-  title: ':title - page :num of :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-
-permalink: /:year/:month/:title.html
+# permalink: /:year/:month/:title.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
