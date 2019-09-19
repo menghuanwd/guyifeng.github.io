@@ -33,7 +33,20 @@ theme: minima
 # theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  # offset: 2
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+permalink: /:year/:month/:title.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
