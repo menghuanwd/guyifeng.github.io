@@ -6,9 +6,10 @@ permalink: /about
 
 ### Summary
 
-I am 29 years old and as a software developer in Shanghai, like programming, watching movie, palying paino.
+I am 30 years old and as a software developer in Shanghai, like programming, watching movie, playing piano.
 
-### My Good At Lauguage
+### My Good At Language
+
 * ruby
 * python
 * golang
@@ -17,10 +18,11 @@ I am 29 years old and as a software developer in Shanghai, like programming, wat
 
 ### Work Experience
 
-* 7+ years of experience in a development ogranization
+* 7+ years of experience in a development organization
 * work on many field such as News, E-Commerce, IOT
 
 ### Contact Me
+
 - Tel:  15201991025
 - Email: 651019063@qq.com
 - Github: [menghuanwd](https://github.com/menghuanwd)
