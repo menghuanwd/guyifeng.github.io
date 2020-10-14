@@ -8,7 +8,9 @@ permalink: /about
 
 I am 30 years old and as a software developer in Shanghai, like programming, watching movie, playing piano.
 
-### My Good At Language
+### Skill
+
+#### Programme Language
 
 * ruby
 * python
@@ -16,13 +18,22 @@ I am 30 years old and as a software developer in Shanghai, like programming, wat
 * nodejs
 * sql
 
+#### Business Domain
+
+* IOT
+* E-Commerce
+* News
+
 ### Work Experience
 
-* 7+ years of experience in a development organization
-* work on many field such as News, E-Commerce, IOT
+|Company|During|
+|:----|:----|
+|上海第一财经数据科技有限公司|2015-至今|
+|舒睿贝蒙经济信息咨询(上海)有限公司|2014-2015|
+|上海喜马拉雅科技有限公司| 2012-2014|
 
 ### Contact Me
 
-- Tel:  15201991025
-- Email: 651019063@qq.com
-- Github: [menghuanwd](https://github.com/menghuanwd)
+* Tel: 15201991025
+* Email: 651019063@qq.com
+* Github: {% avatar menghuanwd size=20 %}[menghuanwd](https://github.com/menghuanwd)

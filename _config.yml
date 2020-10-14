@@ -24,7 +24,7 @@ github_username:  menghuanwd
 zhihu_username: menghuanwd
 RSS: false
 sidebar: true
-paginate: 5
+paginate: 10
 
 # Build settings
 markdown: kramdown
@@ -32,10 +32,14 @@ theme: minima
 # theme: jekyll-theme-minimal
 # theme: jekyll-theme-hacker
 # theme: jekyll-theme-midnight
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-avatar
+  - jekyll-gist
+
 # # Pagination Settings
 # pagination:
 #   enabled: true
@@ -52,9 +56,9 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/

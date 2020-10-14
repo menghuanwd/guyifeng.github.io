@@ -12,8 +12,10 @@ tags: [git]
 * 分支合并，避免分支混乱
 
 ### 合并多个commit
+
 git log 查看commit_id
-```
+
+```shell
 commit 34480597a0fd13339c5108b810efa5c10b20d870 (HEAD -> develop)
 Author: menghuanwd <651019063@qq.com>
 Date:   Mon Aug 19 09:32:14 2019 +0800
@@ -56,14 +58,17 @@ Date:   Wed Jul 24 11:15:06 2019 +0800
 
     init
 ```
+
 目的： 把master test rtyuio合并成一个commit, comment为 合并
-```
+
+```shell
 git rebase -i 221a3e06e5da979e8d8039fd41b5ae2d9fc678dddd
 ```
 
 把 需要合并的 pick 改成 squash(s) 保存退出
 编辑comment  保存退出
-```
+
+```shell
 commit d81c110ce816052c7ce3821e9d5a94430fd2d1f8 (HEAD -> develop)
 Author: menghuanwd <651019063@qq.com>
 Date:   Mon Aug 19 09:32:14 2019 +0800
@@ -97,7 +102,7 @@ Date:   Wed Jul 24 11:15:06 2019 +0800
 
 ### 分支合并，避免分支混乱
 
-```
+```shell
 git rebase master
 
 如果有冲突
